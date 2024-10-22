@@ -1,7 +1,7 @@
 import React from "react";
 import {cva, VariantProps} from "class-variance-authority";
 
-const buttonVariant = cva("rounded-xl px-6 py-6 flex items-center justify-center", {
+const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-center", {
     variants: {
         variant: {
             fulfilled: [
@@ -46,18 +46,32 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 }
 
 export default function Button({
-                                   icon,
+                                   className,
                                    children,
+
                                    variant,
+                                   state = "enabled",
+                                   variantType = "primary",
+
+                                   icon,
                                    show_icon = true,
                                    show_text = true,
-                                   className,
+
                                    ...props
                                }: ButtonProps) {
     return (
-        <button className={buttonVariant({variant, className})} {...props}>
+        <button
+            className={buttonVariant({
+                variant,
+                state,
+                variantType,
+            })}
+            {...props}
+        >
+
             {show_icon && icon && <img src={icon} alt="icon" className="mr-2"/>}
             {show_text && children}
+
         </button>
     );
 }
