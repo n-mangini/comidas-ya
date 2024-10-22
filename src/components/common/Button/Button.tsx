@@ -21,11 +21,6 @@ const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-ce
                 "disabled:text-primary-300 disabled:cursor-not-allowed",
             ],
         },
-        state: {
-            enabled: "",
-            disabled: "disabled:opacity-50 cursor-not-allowed",
-            longPress: "bg-opacity-80",
-        },
         variantType: {
             primary: "bg-primary-500",
             secondary: "bg-secondary-500",
@@ -34,7 +29,6 @@ const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-ce
     },
     defaultVariants: {
         variant: "fulfilled",
-        state: "enabled",
         variantType: "primary",
     },
 });
@@ -50,7 +44,6 @@ export default function Button({
                                    children,
 
                                    variant,
-                                   state = "enabled",
                                    variantType = "primary",
 
                                    icon,
@@ -63,7 +56,6 @@ export default function Button({
         <button
             className={buttonVariant({
                 variant,
-                state,
                 variantType,
             })}
             {...props}
