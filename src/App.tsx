@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "./components/common/Button/Button";
 import SwitchBar from "./components/common/SwitchBar";
+import TopBar from "./components/common/TopBar";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 Icon Only Button
             </Button>
             <SwitchBar />
+            <TopBar  address={"Mariano Acosta"}/>
         </div>
     );
 }
