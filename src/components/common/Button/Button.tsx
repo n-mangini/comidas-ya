@@ -5,35 +5,43 @@ const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-ce
     variants: {
         variant: {
             fulfilled: [
-                "bg-primary-500 text-white",
-                "active:bg-primary-800 active:text-primary-200", //on-press
-                "disabled:bg-primary-100", //disabled
+                "bg-primary-500 text-primary-50",
+                "active:bg-primary-800 active:text-primary-200",
+                "disabled:bg-primary-100 disabled:text-primary-200", // Disabled state styles
             ],
             outlined: [
-                "bg-transparent text-primary-500",
-                "border border-primary-500 ",
-                "active:bg-primary-50 active:text-primary-800 active: border-primary-800",
+                "border border-primary-500 text-primary-500",
+                "active:border-primary-800 active:text-primary-800",
                 "disabled:border-primary-200 disabled:text-primary-200",
             ],
             ghost: [
                 "bg-transparent text-primary-500",
                 "active:bg-primary-50 active:text-primary-800",
-                "disabled:text-primary-300 disabled:cursor-not-allowed",
+                "disabled:text-primary-200 disabled:cursor-not-allowed",
             ],
         },
-        variantType: {
-            primary: "bg-primary-500",
-            secondary: "bg-secondary-500",
-            tertiary: "bg-neutral-500",
+
+/*        variantType: {
+            primary: "bg-primary-500 border-primary-500 text-primary-500",
+            secondary: "bg-secondary-500 border-secondary-500 text-secondary-500",
+            tertiary: "bg-neutral-500 border-neutral-500 text-neutral-500",
+        },*/
+        state: {
+            enabled: "",
+            disabled: "disabled:opacity-50 cursor-not-allowed",
+            longPress: "bg-opacity-80",
         },
     },
     defaultVariants: {
         variant: "fulfilled",
-        variantType: "primary",
+        state: "enabled",
+        //variantType: "primary",
     },
 });
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariant> {
+    variant: 'fulfilled' | 'outlined' | 'ghost';
+    //variantType: 'primary' | 'secondary';
     icon?: string;
     show_icon?: boolean;
     show_text?: boolean;
@@ -44,7 +52,7 @@ export default function Button({
                                    children,
 
                                    variant,
-                                   variantType = "primary",
+                                   //variantType,
 
                                    icon,
                                    show_icon = true,
@@ -56,7 +64,7 @@ export default function Button({
         <button
             className={buttonVariant({
                 variant,
-                variantType,
+                //variantType,
             })}
             {...props}
         >
