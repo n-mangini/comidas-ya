@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "./components/common/Button/Button";
+import Button from "./components/common/Button";
 import SwitchBar from "./components/common/SwitchBar";
 import TopBar from "./components/common/TopBar";
 

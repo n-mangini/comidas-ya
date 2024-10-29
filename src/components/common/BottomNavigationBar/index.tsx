@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { FaHome, FaTags, FaClipboardList } from "react-icons/fa"; // Importing icons from react-icons
+import { FaHome, FaTags, FaClipboardList } from "react-icons/fa";
 
-interface BottomNavigationBarProps {
+export interface BottomNavigationBarProps {
     defaultSelected?: "inicio" | "promociones" | "pedidos";
 }
 

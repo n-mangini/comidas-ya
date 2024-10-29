@@ -15,7 +15,17 @@ export default {
 
 const Template: StoryFn<BottomNavigationBarProps> = (args) => <BottomNavigationBar {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
+export const Inicio = Template.bind({});
+Inicio.args = {
     defaultSelected: "inicio",
+};
+
+export const Promociones = Template.bind({});
+Promociones.args = {
+    defaultSelected: "promociones",
+};
+
+export const Pedidos = Template.bind({});
+Pedidos.args = {
+    defaultSelected: "pedidos",
 };
