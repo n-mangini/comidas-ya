@@ -15,13 +15,13 @@ export default {
         type: 'select',
         options: ['fulfilled', 'outlined', 'ghost'],
       },
-    }/*,
+    },
     variantType: {
       control: {
         type: 'select',
         options: ['primary', 'secondary'],
       },
-    }*/,
+    },
     disabled: { control: 'boolean' },
     show_icon: { control: 'boolean' },
     show_text: { control: 'boolean' },
@@ -33,7 +33,7 @@ const Template: StoryFn<ButtonProps> = (args) => <Button {...args} />;
 export const FulfilledPrimary = Template.bind({});
 FulfilledPrimary.args = {
   variant: 'fulfilled',
-  //variantType: 'primary',
+  variantType: 'primary',
   children: 'Fulfilled Primary Button',
   show_icon: true,
   show_text: true,
@@ -43,7 +43,7 @@ FulfilledPrimary.args = {
 export const OutlinedPrimary = Template.bind({});
 OutlinedPrimary.args = {
   variant: 'outlined',
-  //variantType: 'primary',
+  variantType: 'primary',
   children: 'Outlined Primary Button',
   show_icon: false,
   show_text: true,
@@ -53,20 +53,19 @@ OutlinedPrimary.args = {
 export const GhostPrimary = Template.bind({});
 GhostPrimary.args = {
   variant: 'ghost',
-  //variantType: 'primary',
+  variantType: 'primary',
   children: 'Ghost Primary Button',
   show_icon: false,
   show_text: true,
   icon: '',
 };
 
-/*
 export const FulfilledSecondary = Template.bind({});
 FulfilledSecondary.args = {
   variant: 'fulfilled',
-  //variantType: 'secondary',
+  variantType: 'secondary',
   children: 'Fulfilled Secondary Button',
-  show_icon: true,
+  show_icon: false,
   show_text: true,
   icon: '',
 };
@@ -74,7 +73,7 @@ FulfilledSecondary.args = {
 export const OutlinedSecondary = Template.bind({});
 OutlinedSecondary.args = {
   variant: 'outlined',
-  //variantType: 'secondary',
+  variantType: 'secondary',
   children: 'Outlined Secondary Button',
   show_icon: false,
   show_text: true,
@@ -84,9 +83,9 @@ OutlinedSecondary.args = {
 export const GhostSecondary = Template.bind({});
 GhostSecondary.args = {
   variant: 'ghost',
-  //variantType: 'secondary',
+  variantType: 'secondary',
   children: 'Ghost Secondary Button',
   show_icon: false,
   show_text: true,
   icon: '',
-};*/
+};
