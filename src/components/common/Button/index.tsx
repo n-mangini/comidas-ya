@@ -10,8 +10,7 @@ const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-ce
         },
         variantType: {
             primary: "",
-            secondary: "",
-            tertiary: "",
+            secondary: ""
         },
         state: {
             enabled: "",
@@ -116,7 +115,7 @@ export default function Button({
             {...props}
         >
 
-            {show_icon && icon && <img src={icon} alt="icon" className="mr-2"/>}
+            {show_icon && icon && <img src={icon} alt="icon"/>}
             {show_text && children}
 
         </button>
