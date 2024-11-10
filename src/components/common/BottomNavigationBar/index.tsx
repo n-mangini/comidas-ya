@@ -45,4 +45,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({ defaultSelect
     );
 };
 
+
+
+
 export default BottomNavigationBar;

@@ -15,14 +15,15 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ title, labels }) => {
                 <img src={img} alt="Food" className="w-full h-32 object-cover"/>
 
                 {/* Full-width Gradient Background for Text */}
-                <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-[rgba(0,0,0,0.4)] to-transparent p-3">
-                    <p className="text-white text-lg font-medium">{title}</p>
+                <div
+                    className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-[rgba(0,0,0,0.4)] to-transparent p-3">
+                    <p className="text-white text-lg font-medium break-words">{title}</p>
                 </div>
 
             </div>
 
             {/* Labels Section */}
-            <div className="flex gap-3 p-3">
+            <div className="flex gap-2 p-2 flex-wrap">
                 {labels.map((label, index) => (
                     <Label key={index} text={label} variant="outlined" variantType="primary" size="small"/>
                 ))}

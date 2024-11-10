@@ -26,16 +26,16 @@ const FoodCard: React.FC<FoodCardProps> = ({ title, description, price, discount
                 {/* Title, Description, and Price */}
                 <div className="flex justify-between items-center w-full">
                     {/* Title and Description */}
-                    <div className="flex flex-col">
-                        <h3 className="text-lg font-semibold">{title}</h3>
-                        <p className="text-gray-600 text-sm">{description}</p>
+                    <div className="flex flex-col w-4/5">
+                        <h3 className="text-lg font-semibold break-words">{title}</h3>
+                        <p className="text-gray-600 text-sm break-words">{description}</p>
                     </div>
                     {/* Price */}
                     <div className="text-lg font-bold text-gray-900">${price.toFixed(2)}</div>
                 </div>
 
                 {/* Labels */}
-                <div className="flex gap-3">
+                <div className="flex gap-3 flex-wrap">
                     {labels.map((label, index) => (
                         <Label key={index} text={label} variant="fulfilled" variantType="primary" size="small"/>
                     ))}

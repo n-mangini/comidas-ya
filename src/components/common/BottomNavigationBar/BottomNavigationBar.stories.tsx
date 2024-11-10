@@ -1,6 +1,6 @@
 import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import BottomNavigationBar, {BottomNavigationBarProps} from "./index";
+import BottomNavigationBar, { BottomNavigationBarProps } from "./index";
 
 export default {
     title: "Components/BottomNavigationBar",
