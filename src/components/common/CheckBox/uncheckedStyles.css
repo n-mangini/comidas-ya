@@ -1,0 +1,9 @@
+
+.unchecked {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 2px solid var(--primary-500);
+    background: var(--white);
+}

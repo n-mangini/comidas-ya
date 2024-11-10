@@ -2,6 +2,7 @@ import React from 'react';
 import Button from "./components/common/Button";
 import SwitchBar from "./components/common/SwitchBar";
 import TopBar from "./components/common/TopBar";
+import './global.css';
 
 function App() {
     return (

@@ -1,0 +1,5 @@
+.secondary {
+    border-radius: 6px;
+    border: 2px solid var(--secondary-500, #0C8CE9);
+    background: var(--white, #FFF);
+}
