@@ -1,0 +1,46 @@
+.food-card {
+    display: flex;
+    width: 400px;
+    height: 81px;
+    padding: 11.529px 23.059px;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    color: var(--negative-700);
+
+    gap: 24px;
+
+
+}
+.food-price{
+    margin-top: 3px;
+}
+
+
+.food-image {
+    border-radius: 90%;
+    width: 70px;
+    height: 70px;
+}
+
+
+.food-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-details{
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 200px;
+}
+
+
+.add-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+
+}

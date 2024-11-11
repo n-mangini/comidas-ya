@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 
 
+.captionMedium-b1 {
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 22.4px */
+}
+.headerRegularH6 {
+    font-family: Roboto, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 27.5px */
+    letter-spacing: -0.22px;
+}
+
 .headerRegularH5 {
     font-family: Roboto, serif;
     font-size: 24px;
@@ -58,11 +74,11 @@
 }
 
 .captionRegularC1 {
-    font-family: 'Roboto', serif;
+    font-family: Roboto, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 19.4px;
 }
 
 
