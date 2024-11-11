@@ -1,0 +1,10 @@
+.filter {
+    display: flex;
+    padding: 3px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--primary-500, #30977C);
+    background: var(--primary-50, #EFFAF6);
+}

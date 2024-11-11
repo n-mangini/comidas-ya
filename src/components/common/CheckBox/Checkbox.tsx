@@ -1,7 +1,7 @@
 import React from 'react';
 import './CheckBoxStyles.css';
 import './uncheckedStyles.css';
-import './../../../global.css';
+import '../../../styles/global.css';
 import './disabled.css';
 import './secundary.css';
 
