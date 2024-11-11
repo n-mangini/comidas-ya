@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 
 
+.headerRegularH5 {
+    font-family: Roboto, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: -0.24px;
+}
+.food-name {
+    color: #1D1B20;
+}
 .headerMediumH3 {
     font-family: Roboto;
     font-size: 28px;
@@ -73,10 +84,20 @@
 }
 
 .bodyLightB1 {
-
+    color: var(--black, #1D1B20);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
+    line-height: 160%; /* 25.6px */
+}
+
+.bodyMediumB1 {
+    text-align: right;
+    /* Body/medium-b1 */
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 160%; /* 25.6px */
 }
