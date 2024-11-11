@@ -1,17 +1,17 @@
 import React from 'react';
-import Dot, {DotsProps} from "./Dot";
+import RadioButton, {RadioButtonProps} from "./RadioButton";
 import {StoryFn } from '@storybook/react';
 
 export default {
-    title: 'Components/Dot',
-    component: Dot,
+    title: 'Components/RadioButton',
+    component: RadioButton,
     argTypes: {
         checked: { control: 'boolean' },
         disabled: { control: { type: 'boolean', disable: true } },
     },
 };
 
-const Template: StoryFn<DotsProps> = (args) => <Dot {...args} />;
+const Template: StoryFn<RadioButtonProps> = (args) => <RadioButton {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

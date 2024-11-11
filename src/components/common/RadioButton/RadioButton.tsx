@@ -5,13 +5,13 @@ import './../../../global.css';
 import './disabled.css';
 import './secundary.css';
 
-export interface DotsProps {
+export interface RadioButtonProps {
     checked: boolean;
     disabled: boolean;
     secondary: boolean;
 }
 
-const Dot: React.FC<DotsProps> = ({ checked, disabled, secondary }) => {
+const RadioButton: React.FC<RadioButtonProps> = ({ checked, disabled, secondary }) => {
     if (secondary) {
         return (
             <div className={`box ${disabled ? "" : "disabled"}`}>
@@ -45,4 +45,4 @@ const Dot: React.FC<DotsProps> = ({ checked, disabled, secondary }) => {
     }
 };
 
-export default Dot;
+export default RadioButton;
