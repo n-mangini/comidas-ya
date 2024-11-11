@@ -10,6 +10,15 @@
     font-weight: 700;
     line-height: 160%;
 }
+.headerSemiBoldH6 {
+
+    font-family: Roboto, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 27.5px */
+    letter-spacing: -0.22px;
+}
 
 .bodySemiBold {
 
@@ -28,6 +37,15 @@
     line-height: 160%;
 }
 
+
+.headerRegularH3 {
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 44.8px */
+    letter-spacing: -0.28px;
+}
 .bodyRegularB1 {
 
     font-family: 'Roboto', serif;
