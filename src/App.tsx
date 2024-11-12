@@ -3,6 +3,7 @@ import Button from "./components/common/Button";
 import SwitchBar from "./components/common/SwitchBar";
 import TopBar from "./components/common/TopBar";
 import './styles/global.css';
+import { ReactComponent as ShoppingCartSvg } from "./assets/icons/shopping-cart.svg";
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
 
             <SwitchBar />
             <TopBar  address={"Mariano Acosta"}/>
+            <ShoppingCartSvg className="fill-current text-primary-500" />
         </div>
     );
 }
