@@ -116,7 +116,7 @@ History.args = {
 export const Home = Template.bind({});
 Home.args = {
     icon: HomeIcon,
-    color: 'text-black',
+    color: 'text-white',
 };
 
 export const Interrogate = Template.bind({});

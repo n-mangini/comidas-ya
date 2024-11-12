@@ -23,7 +23,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({ defaultSelect
                 className={`flex flex-col items-center ${getButtonStyle("inicio")} mx-6`}
                 onClick={() => setSelected("inicio")}
             >
-                <Icon icon={HomeIcon} />
+                <Icon icon={HomeIcon} color={'text-white'}/>
                 <span className="text-sm">Inicio</span>
             </button>
 
