@@ -112,7 +112,7 @@ export default function Button({
                                }: ButtonProps) {
     return (
         <button
-            className={"bodyMediumB1 px-3 py-3 border-radius " + buttonVariant({
+            className={"bodyMediumB1 px-3 border-radius " + buttonVariant({
                 variant,
                 variantType,
             })}
