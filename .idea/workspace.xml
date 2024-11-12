@@ -7,15 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae1d6b8-b4f8-43fb-9009-8a095c1f1fff" name="Changes" comment="general reformat">
-      <change afterPath="$PROJECT_DIR$/src/pages/FoodHome/FoodHome.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/RecipePage/RecipePage.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/comidas-ya.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="dae1d6b8-b4f8-43fb-9009-8a095c1f1fff" name="Changes" comment="add story for main pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RecipePage/RecipeStep.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RecipePage/RecipeStep.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodCarousel/FoodCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodCarousel/FoodCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SwitchBar/SwitchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SwitchBar/SwitchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/TopBar/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/TopBar/TopBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1730922297038" duration="326000" />
       <workItem from="1731115295440" duration="10024000" />
       <workItem from="1731379268520" duration="2900000" />
-      <workItem from="1731382420318" duration="38163000" />
+      <workItem from="1731382420318" duration="39029000" />
     </task>
     <task id="LOCAL-00001" summary="clase 8 de octubre">
       <option name="closed" value="true" />
@@ -352,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731444527414</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add story for main pages">
+      <option name="closed" value="true" />
+      <created>1731451960892</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731451960892</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +370,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove unnecessary button variant state" />
     <MESSAGE value="temporary remove colours" />
     <MESSAGE value="feat: add switchbar" />
     <MESSAGE value="feat: add bottom and top bar, use react buttons" />
@@ -389,6 +394,7 @@
     <MESSAGE value="feat: add Recipe step screen" />
     <MESSAGE value="feat: fixed buttons in recipe steps with scrollable content" />
     <MESSAGE value="general reformat" />
-    <option name="LAST_COMMIT_MESSAGE" value="general reformat" />
+    <MESSAGE value="add story for main pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add story for main pages" />
   </component>
 </project>

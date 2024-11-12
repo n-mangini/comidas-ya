@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import FoodCategoryIcon from './FoodCategoryIcon';
+import '../../styles/fonts.css'
 
 import {ReactComponent as Image} from './assets/image.svg';
 import {ReactComponent as Image1} from './assets/image1.svg';

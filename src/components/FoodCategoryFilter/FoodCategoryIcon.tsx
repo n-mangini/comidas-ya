@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/fonts.css'
 
 export interface FoodCategoryIconProps {
     icon: React.FC<React.SVGProps<SVGSVGElement>>;
@@ -11,7 +12,7 @@ const FoodCategoryIcon: React.FC<FoodCategoryIconProps> = ({icon: Icon, label}) 
             <div className="flex items-center justify-center w-16 h-16 rounded-full shadow-lg">
                 <Icon className="w-8 h-8"/>
             </div>
-            <span className="text-sm font-medium text-gray-800">{label}</span>
+            <span className="bodyMediumB1">{label}</span>
         </div>
     );
 };
