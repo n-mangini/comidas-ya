@@ -6,6 +6,7 @@ export interface FoodCardProps {
     title: string;
     description: string;
     price: number;
+    imageUrl: string;
     discount: string;
     labels: string[];
 }
@@ -22,7 +23,7 @@ const FoodCard: React.FC<FoodCardProps> = ({ title, description, price, discount
             </div>
 
             {/* Main Content */}
-            <div className="flex flex-col w-full p-3 gap-3">
+            <div className="flex flex-col w-full p-3 gap-1">
                 {/* Title, Description, and Price */}
                 <div className="flex justify-between items-center w-full">
                     {/* Title and Description */}

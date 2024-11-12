@@ -1,6 +1,5 @@
 .search-bar {
     display: flex;
-    width: 412px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -15,21 +14,10 @@
     gap: 10px;
     align-self: stretch;
     border-radius: 6px;
-    justify-content: space-between;
     background: var(--neutral-50, #F6F7F9);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.search-icon{
-    display: flex;
-    width: 41px;
-    height: 41px;
-    padding: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-}
 .search-input {
     background: var(--neutral-50, #F6F7F9);
 }

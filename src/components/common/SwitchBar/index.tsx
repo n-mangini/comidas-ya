@@ -39,7 +39,7 @@ const SwitchBar: React.FC<SwitchBarProps> = ({ selection = "comidas" }) => {
     }, [selection]);
 
     return (
-        <div className="flex border border-primary-500 rounded-md overflow-hidden shadow-lg">
+        <div className="flex border border-primary-500 rounded-md overflow-hidden shadow-lg h-10">
             <SwitchButton
                 label="Comidas"
                 selected={activeTab === "comidas"}

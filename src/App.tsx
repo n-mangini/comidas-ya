@@ -5,9 +5,11 @@ import TopBar from "./components/common/TopBar";
 import './styles/global.css';
 import {ReactComponent as shopping_cart} from "./assets/icons/shopping_cart.svg";
 import {Icon} from "./components/common/Icon";
+import FoodHome from "./pages/Home/FoodHome";
 
 function App() {
     return (
+        <FoodHome/>/*
         <div className="p-8">
             <Button variant="fulfilled" variantType="primary" icon={shopping_cart} show_icon={false} show_text={true}>
                 Fulfilled Button
@@ -36,7 +38,7 @@ function App() {
             <SwitchBar/>
             <TopBar address={"Mariano Acosta"}/>
             <Icon icon={shopping_cart} color="text-primary-500"/>
-        </div>
+        </div>*/
     );
 }
 
