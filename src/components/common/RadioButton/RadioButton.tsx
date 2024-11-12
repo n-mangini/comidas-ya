@@ -11,7 +11,7 @@ export interface RadioButtonProps {
     secondary: boolean;
 }
 
-const RadioButton: React.FC<RadioButtonProps> = ({ checked, disabled, secondary }) => {
+const RadioButton: React.FC<RadioButtonProps> = ({checked, disabled, secondary}) => {
     if (secondary) {
         return (
             <div className={`box ${disabled ? "" : "disabled"}`}>

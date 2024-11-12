@@ -10,10 +10,10 @@ export interface SlideToPayProps {
     moneyToPay: number;
 }
 
-const SlideToPay: React.FC<SlideToPayProps> = ({ showSlideIcon, showOkayIcon, isAError, moneyToPay }) => {
+const SlideToPay: React.FC<SlideToPayProps> = ({showSlideIcon, showOkayIcon, isAError, moneyToPay}) => {
 
-    if (isAError){
-        return(
+    if (isAError) {
+        return (
             <div className={"isAError slide-to-pay BodyBoldB1"}>Hubo un problema</div>
         )
     }
@@ -32,7 +32,7 @@ const SlideToPay: React.FC<SlideToPayProps> = ({ showSlideIcon, showOkayIcon, is
             {showOkayIcon && (
                 <div className={"container"}>
                     <div>Confirmado</div>
-                    <OkayIcon />
+                    <OkayIcon/>
 
                 </div>
 

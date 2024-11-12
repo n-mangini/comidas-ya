@@ -1,38 +1,38 @@
 import React from 'react';
 import {Meta, StoryFn} from '@storybook/react';
-import {Icon, IconProps} from './index';
+import {Icon, IconProps} from './Icon';
 
-import { ReactComponent as AppleIcon } from "../../../assets/icons/apple.svg";
-import { ReactComponent as BikeIcon } from "../../../assets/icons/bike.svg";
-import { ReactComponent as CheckIcon } from "../../../assets/icons/check.svg";
-import { ReactComponent as DiscountsIcon } from "../../../assets/icons/discounts.svg";
-import { ReactComponent as DoubleArrowIcon } from "../../../assets/icons/double_arrow.svg";
-import { ReactComponent as DownArrowIcon } from "../../../assets/icons/down_arrow.svg";
-import { ReactComponent as EyeIcon } from "../../../assets/icons/eye.svg";
-import { ReactComponent as FacebookIcon } from "../../../assets/icons/facebook.svg";
-import { ReactComponent as FilterIcon } from "../../../assets/icons/filter.svg";
-import { ReactComponent as GoogleIcon } from "../../../assets/icons/google.svg";
-import { ReactComponent as HistoryIcon } from "../../../assets/icons/history.svg";
-import { ReactComponent as HomeIcon } from "../../../assets/icons/home.svg";
-import { ReactComponent as InterrogateIcon } from "../../../assets/icons/interrogate.svg";
-import { ReactComponent as LeftArrowIcon } from "../../../assets/icons/left_arrow.svg";
-import { ReactComponent as LocationIcon } from "../../../assets/icons/location.svg";
-import { ReactComponent as MenuIcon } from "../../../assets/icons/menu.svg";
-import { ReactComponent as OrdersIcon } from "../../../assets/icons/orders.svg";
-import { ReactComponent as PipeIcon } from "../../../assets/icons/pipe.svg";
-import { ReactComponent as PlayIcon } from "../../../assets/icons/play.svg";
-import { ReactComponent as ProfileIcon } from "../../../assets/icons/profile.svg";
-import { ReactComponent as RepeatIcon } from "../../../assets/icons/repeat.svg";
-import { ReactComponent as RightArrowIcon } from "../../../assets/icons/right_arrow.svg";
-import { ReactComponent as SearchIcon } from "../../../assets/icons/search.svg";
-import { ReactComponent as ShoppingCartIcon } from "../../../assets/icons/shopping_cart.svg";
-import { ReactComponent as StarIcon } from "../../../assets/icons/star.svg";
-import { ReactComponent as StarOutlinedIcon } from "../../../assets/icons/star_outlined.svg";
-import { ReactComponent as TrashIcon } from "../../../assets/icons/trash.svg";
+import {ReactComponent as AppleIcon} from "../../../assets/icons/apple.svg";
+import {ReactComponent as BikeIcon} from "../../../assets/icons/bike.svg";
+import {ReactComponent as CheckIcon} from "../../../assets/icons/check.svg";
+import {ReactComponent as DiscountsIcon} from "../../../assets/icons/discounts.svg";
+import {ReactComponent as DoubleArrowIcon} from "../../../assets/icons/double_arrow.svg";
+import {ReactComponent as DownArrowIcon} from "../../../assets/icons/down_arrow.svg";
+import {ReactComponent as EyeIcon} from "../../../assets/icons/eye.svg";
+import {ReactComponent as FacebookIcon} from "../../../assets/icons/facebook.svg";
+import {ReactComponent as FilterIcon} from "../../../assets/icons/filter.svg";
+import {ReactComponent as GoogleIcon} from "../../../assets/icons/google.svg";
+import {ReactComponent as HistoryIcon} from "../../../assets/icons/history.svg";
+import {ReactComponent as HomeIcon} from "../../../assets/icons/home.svg";
+import {ReactComponent as InterrogateIcon} from "../../../assets/icons/interrogate.svg";
+import {ReactComponent as LeftArrowIcon} from "../../../assets/icons/left_arrow.svg";
+import {ReactComponent as LocationIcon} from "../../../assets/icons/location.svg";
+import {ReactComponent as MenuIcon} from "../../../assets/icons/menu.svg";
+import {ReactComponent as OrdersIcon} from "../../../assets/icons/orders.svg";
+import {ReactComponent as PipeIcon} from "../../../assets/icons/pipe.svg";
+import {ReactComponent as PlayIcon} from "../../../assets/icons/play.svg";
+import {ReactComponent as ProfileIcon} from "../../../assets/icons/profile.svg";
+import {ReactComponent as RepeatIcon} from "../../../assets/icons/repeat.svg";
+import {ReactComponent as RightArrowIcon} from "../../../assets/icons/right_arrow.svg";
+import {ReactComponent as SearchIcon} from "../../../assets/icons/search.svg";
+import {ReactComponent as ShoppingCartIcon} from "../../../assets/icons/shopping_cart.svg";
+import {ReactComponent as StarIcon} from "../../../assets/icons/star.svg";
+import {ReactComponent as StarOutlinedIcon} from "../../../assets/icons/star_outlined.svg";
+import {ReactComponent as TrashIcon} from "../../../assets/icons/trash.svg";
 
 
 export default {
-    title: 'Components/Icon',
+    title: 'Components/Common/Icon',
     component: Icon,
     argTypes: {
         color: {

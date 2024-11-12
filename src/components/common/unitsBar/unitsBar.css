@@ -1,0 +1,50 @@
+.units-bar {
+    gap: 15px;
+    border: 1px solid var(--primary-500, #30977C);
+    width: 382px;
+    height: 114px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.count-container {
+    display: flex;
+    width: 167.224px;
+    height: 34.137px;
+
+    justify-content: space-between;
+}
+
+.increment {
+    border-radius: 0 6px 6px 0;
+}
+
+.decrement {
+    border-radius: 6px 0 0 6px;
+}
+
+.title-unit-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-container {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbols {
+    background: var(--primary-500);
+}
+
+.count {
+    background: var(--primary-400);
+    color: var(--white);
+}

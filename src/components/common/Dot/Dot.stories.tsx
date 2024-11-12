@@ -1,13 +1,13 @@
 import React from 'react';
-import { StoryFn } from '@storybook/react';
-import Dot, { DotProps } from './Dot';
+import {StoryFn} from '@storybook/react';
+import Dot, {DotProps} from './Dot';
 
 export default {
-    title: 'Components/Dot',
+    title: 'Components/Common/Dot',
     component: Dot,
     argTypes: {
-        checked: { control: 'boolean' },
-        disabled: { control: { type: 'boolean', disable: true } },
+        checked: {control: 'boolean'},
+        disabled: {control: {type: 'boolean', disable: true}},
     },
 };
 

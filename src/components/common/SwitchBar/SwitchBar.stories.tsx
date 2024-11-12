@@ -1,13 +1,13 @@
 import React from "react";
 import {Meta, StoryFn} from "@storybook/react";
-import SwitchBar from "./index";
+import SwitchBar from "./SwitchBar";
 
 export default {
     title: "Components/SwitchBar",
     component: SwitchBar,
     argTypes: {
         selection: {
-            control: { type: "radio" },
+            control: {type: "radio"},
             options: ["comidas", "recetas"],
         },
     },

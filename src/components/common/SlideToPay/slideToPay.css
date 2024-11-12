@@ -16,7 +16,7 @@
 }
 
 .isAError {
-    color:var(--white);
+    color: var(--white);
     background: var(--negative-500, #F9403A);
 }
 

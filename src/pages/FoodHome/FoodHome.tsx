@@ -1,10 +1,10 @@
-import TopBar from "../../components/common/TopBar";
-import SwitchBar from "../../components/common/SwitchBar";
-import SearchBar from "../../components/common/SearchBar/SercherBar";
+import TopBar from "../../components/common/TopBar/TopBar";
+import SwitchBar from "../../components/common/SwitchBar/SwitchBar";
+import SearchBar from "../../components/common/SearchBar/InputField";
 import React from "react";
-import FoodCarousel from "../../components/common/FoodCarousel";
-import BottomNavigationBar from "../../components/common/BottomNavigationBar";
-import {Icon} from "../../components/common/Icon";
+import FoodCarousel from "../../components/FoodCarousel/FoodCarousel";
+import BottomNavigationBar from "../../components/common/BottomNavigationBar/BottomBar";
+import {Icon} from "../../components/common/Icon/Icon";
 import {ReactComponent as RightArrowIcon} from "../../assets/icons/right_arrow.svg";
 import {popularFoodItems, recommendedFoodItems} from "./recommendedFoodItems";
 import FoodCategoryFilter from "../../components/FoodCategoryFilter/FoodCategoryFilter";

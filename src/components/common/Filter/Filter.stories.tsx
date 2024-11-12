@@ -1,13 +1,12 @@
-
 import {StoryFn} from "@storybook/react";
 import React from "react";
 import {Filter, FilterProps} from "./Filter";
 
 export default {
-    title: 'Components/Filter',
+    title: 'Components/Common/Filter',
     component: Filter,
     argTypes: {
-        text: { control: 'text' }
+        text: {control: 'text'}
     },
 };
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Meta, StoryFn } from '@storybook/react';
-import TimeTitle, { TimeTitleProps } from './TimeTitle';
+import {Meta, StoryFn} from '@storybook/react';
+import TimeTitle, {TimeTitleProps} from './TimeTitle';
 
 export default {
     title: 'Components/TimeTitle',
     component: TimeTitle,
     argTypes: {
-        time: { control: 'text' },
+        time: {control: 'text'},
     },
 } as Meta;
 

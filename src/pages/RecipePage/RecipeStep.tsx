@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '../../components/common/Button';
+import Button from '../../components/common/Button/Button';
 import Dot from "../../components/common/Dot/Dot";
-import {Icon} from "../../components/common/Icon";
+import {Icon} from "../../components/common/Icon/Icon";
 import {ReactComponent as LeftArrow} from "../../assets/icons/left_arrow.svg"
 
 export interface RecipeStepProps {
@@ -34,11 +34,11 @@ const RecipeStep: React.FC<RecipeStepProps> = ({
 
                 {/* Header with Back Button and Title */}
                 <div className="relative w-full flex items-center justify-center mb-2">
-                    {currentStep > 0 && (
-                        <div className="absolute left-0">
-                            <Icon icon={LeftArrow}/>
-                        </div>
-                    )}
+
+                    <div className="absolute left-0">
+                        <Icon icon={LeftArrow}/>
+                    </div>
+
 
                     <div>
                         <h1 className="text-xl font-bold text-center w-full">{title}</h1>

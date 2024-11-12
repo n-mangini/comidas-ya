@@ -1,15 +1,15 @@
 import React from 'react';
-import { StoryFn, Meta } from '@storybook/react';
-import FoodCategoryIcon, { FoodCategoryIconProps } from './FoodCategoryIcon';
-import { ReactComponent as Image } from './assets/image.svg';
-import { ReactComponent as Image1 } from './assets/image1.svg';
-import { ReactComponent as Image2 } from './assets/image2.svg';
-import { ReactComponent as Image3 } from './assets/image3.svg';
-import { ReactComponent as Image4 } from './assets/image4.svg';
-import { ReactComponent as Image5 } from './assets/image5.svg';
+import {StoryFn, Meta} from '@storybook/react';
+import FoodCategoryIcon, {FoodCategoryIconProps} from './FoodCategoryIcon';
+import {ReactComponent as Image} from './assets/image.svg';
+import {ReactComponent as Image1} from './assets/image1.svg';
+import {ReactComponent as Image2} from './assets/image2.svg';
+import {ReactComponent as Image3} from './assets/image3.svg';
+import {ReactComponent as Image4} from './assets/image4.svg';
+import {ReactComponent as Image5} from './assets/image5.svg';
 
 export default {
-    title: 'FoodCategoryFilter/FoodCategoryIcon',
+    title: 'Components/FoodCategoryFilter/FoodCategoryIcon',
     component: FoodCategoryIcon,
 } as Meta;
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Meta, StoryFn } from '@storybook/react';
-import RecipeCard, { RecipeCardProps } from './index';
+import {Meta, StoryFn} from '@storybook/react';
+import RecipeCard, {RecipeCardProps} from './RecipeCard';
 
 export default {
     title: 'Components/RecipeCard', // Unique title to prevent conflicts

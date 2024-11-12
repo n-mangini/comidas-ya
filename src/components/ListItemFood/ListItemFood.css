@@ -1,0 +1,20 @@
+.list-item-food {
+    display: flex;
+    height: 76.471px;
+    padding: 10.924px 21.849px;
+    align-items: center;
+    gap: 21.849px;
+    align-self: stretch;
+    border-bottom: 2px solid var(--neutral-50, #E0E0E0);
+}
+
+.food-image {
+    width: 61.45px;
+    height: 55.987px;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+
+.food-price {
+    color: var(--neutral-500)
+}

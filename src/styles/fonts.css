@@ -8,6 +8,7 @@
     font-weight: 500;
     line-height: 22.4px; /* 22.4px */
 }
+
 .headerRegularH6 {
     font-family: Roboto, serif;
     font-size: 22px;
@@ -25,9 +26,7 @@
     line-height: 38.4px;
     letter-spacing: -0.24px;
 }
-.food-name {
-    color: #1D1B20;
-}
+
 .headerMediumH3 {
     font-family: Roboto;
     font-size: 28px;
@@ -36,6 +35,7 @@
     line-height: 160%; /* 44.8px */
     letter-spacing: -0.28px;
 }
+
 .headerMediumH4 {
     font-family: Roboto, serif;
     font-size: 28px;
@@ -54,6 +54,7 @@
     font-weight: 700;
     line-height: 160%;
 }
+
 .headerSemiBoldH6 {
 
     font-family: Roboto, serif;
@@ -90,6 +91,7 @@
     line-height: 160%; /* 44.8px */
     letter-spacing: -0.28px;
 }
+
 .bodyRegularB1 {
 
     font-family: 'Roboto', serif;

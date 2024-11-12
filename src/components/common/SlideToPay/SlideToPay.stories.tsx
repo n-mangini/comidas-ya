@@ -5,9 +5,7 @@ import {Meta, StoryFn} from "@storybook/react";
 export default {
     title: 'components/SlideToPay',
     component: SlideToPay,
-    argTypes: {
-
-    }
+    argTypes: {}
 } as Meta
 
 
