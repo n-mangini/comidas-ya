@@ -88,9 +88,10 @@ const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-ce
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariant> {
     variant: 'fulfilled' | 'outlined' | 'ghost';
     variantType: 'primary' | 'secondary';
-    icon?: string;
+    icon?: React.FC<React.SVGProps<SVGSVGElement>>;
     show_icon?: boolean;
     show_text?: boolean;
+    icon_color?: string;
 }
 
 export default function Button({
@@ -100,9 +101,10 @@ export default function Button({
                                    variant,
                                    variantType,
 
-                                   icon,
+                                   icon: Icon,
                                    show_icon = true,
                                    show_text = true,
+                                   icon_color = "black",
 
                                    ...props
                                }: ButtonProps) {
@@ -114,8 +116,7 @@ export default function Button({
             })}
             {...props}
         >
-
-            {show_icon && icon && <img src={icon} alt="icon"/>}
+            {show_icon && Icon && <Icon color={icon_color}/>}
             {show_text && children}
 
         </button>
