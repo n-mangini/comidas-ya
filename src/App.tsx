@@ -29,13 +29,13 @@ function App() {
                 Outlined Button
             </Button>
 
-            <Button variant="ghost" variantType="secondary" icon={shopping_cart} show_icon={false} show_text={true}>
+            <Button variant="ghost" variantType="secondary" icon_color="text-black" icon={shopping_cart} show_icon={true} show_text={true}>
                 Icon Only Button
             </Button>
 
             <SwitchBar/>
             <TopBar address={"Mariano Acosta"}/>
-            <Icon icon={shopping_cart}/>
+            <Icon icon={shopping_cart} color="text-primary-500"/>
         </div>
     );
 }
