@@ -19,7 +19,12 @@ const HistoryCard: React.FC<HistoryCardProps> = ({title, quantity, description, 
                 <h2 className="history-title headerRegularH6">{title} x {quantity}</h2>
 
                 <p className="history-description captionRegularC1">{description}</p>
-                <Button variant="fulfilled" variantType="primary" icon={repeat} icon_color="text-white" >Repetir</Button>
+            <div className="grid w-full" >
+
+                <Button className="w-full" variant="fulfilled" variantType="primary" icon={repeat}
+                        icon_color="text-white">Repetir</Button>
+
+            </div>
             </div>
         </div>
     );
