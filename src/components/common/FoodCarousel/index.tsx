@@ -46,8 +46,8 @@ const FoodCarousel: React.FC = () => {
     ];
 
     return (
-        <div className="food-carousel-container overflow-x-auto"> {/* Scrollable container */}
-            <div className="flex space-x-4"> {/* Flex container for horizontal layout */}
+        <div className="overflow-x-auto"> {/* Scrollable container */}
+            <div className="flex space-x-4 mb-1.5"> {/* Flex container for horizontal layout */}
                 {foodItems.map((item, index) => (
                     <div className="w-80 flex-shrink-0">
                         <FoodCard

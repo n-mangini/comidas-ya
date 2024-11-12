@@ -9,11 +9,7 @@ export interface TopBarProps {
 
 const TopBar: React.FC<TopBarProps> = ({address}) => {
     return (
-        <div className="flex items-center justify-between bg-white p-4 rounded-md"
-             style={{
-                 boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)', // Custom top-only shadow
-             }}
-        >
+        <div className="flex items-center justify-between bg-white p-4 rounded-md h-12">
             {/* Profile Icon */}
             <Icon icon={ProfileIcon}/>
 
