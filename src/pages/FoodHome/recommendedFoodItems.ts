@@ -1,14 +1,14 @@
-import FoodRecommended0 from '../assets/food/recomendado/image.png';
-import FoodRecommended1 from '../assets/food/recomendado/image-1.png';
-import FoodRecommended2 from '../assets/food/recomendado/image-2.png';
-import FoodRecommended3 from '../assets/food/recomendado/image-3.png';
-import FoodRecommended4 from '../assets/food/recomendado/image-4.png';
+import FoodRecommended0 from './assets/food/recomendado/image.png';
+import FoodRecommended1 from './assets/food/recomendado/image-1.png';
+import FoodRecommended2 from './assets/food/recomendado/image-2.png';
+import FoodRecommended3 from './assets/food/recomendado/image-3.png';
+import FoodRecommended4 from './assets/food/recomendado/image-4.png';
 
-import FoodPopular0 from '../assets/food/popular/image.png';
-import FoodPopular1 from '../assets/food/popular/image-1.png';
-import FoodPopular2 from '../assets/food/popular/image-2.png';
-import FoodPopular3 from '../assets/food/popular/image-3.png';
-import FoodPopular4 from '../assets/food/popular/image-4.png';
+import FoodPopular0 from './assets/food/popular/image.png';
+import FoodPopular1 from './assets/food/popular/image-1.png';
+import FoodPopular2 from './assets/food/popular/image-2.png';
+import FoodPopular3 from './assets/food/popular/image-3.png';
+import FoodPopular4 from './assets/food/popular/image-4.png';
 
 export interface FoodItem {
     title: string;

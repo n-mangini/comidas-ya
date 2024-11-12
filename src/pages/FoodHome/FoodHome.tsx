@@ -1,13 +1,13 @@
-import TopBar from "../../../components/common/TopBar";
-import SwitchBar from "../../../components/common/SwitchBar";
-import SearchBar from "../../../components/common/SearchBar/SercherBar";
+import TopBar from "../../components/common/TopBar";
+import SwitchBar from "../../components/common/SwitchBar";
+import SearchBar from "../../components/common/SearchBar/SercherBar";
 import React from "react";
-import FoodCarousel from "../../../components/common/FoodCarousel";
-import BottomNavigationBar from "../../../components/common/BottomNavigationBar";
-import {Icon} from "../../../components/common/Icon";
-import {ReactComponent as RightArrowIcon} from "../../../assets/icons/right_arrow.svg";
+import FoodCarousel from "../../components/common/FoodCarousel";
+import BottomNavigationBar from "../../components/common/BottomNavigationBar";
+import {Icon} from "../../components/common/Icon";
+import {ReactComponent as RightArrowIcon} from "../../assets/icons/right_arrow.svg";
 import {popularFoodItems, recommendedFoodItems} from "./recommendedFoodItems";
-import FoodCategoryFilter from "../../../components/FoodCategoryFilter/FoodCategoryFilter";
+import FoodCategoryFilter from "../../components/FoodCategoryFilter/FoodCategoryFilter";
 
 const Home: React.FC = () => {
     return (

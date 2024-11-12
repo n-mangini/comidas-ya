@@ -1,6 +1,6 @@
 import React from 'react';
 import FoodCard from '../FoodCard/index';
-import {FoodItem} from "../../../pages/Home/FoodHome/recommendedFoodItems";
+import {FoodItem} from "../../../pages/FoodHome/recommendedFoodItems";
 
 interface FoodCarouselProps {
     foodItems: FoodItem[];
