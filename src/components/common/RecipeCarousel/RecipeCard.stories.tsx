@@ -3,7 +3,7 @@ import {Meta, StoryFn} from '@storybook/react';
 import RecipeCard, {RecipeCardProps} from './RecipeCard';
 
 export default {
-    title: 'Components/RecipeCard', // Unique title to prevent conflicts
+    title: 'Components/RecipeCarousel/RecipeCard', // Unique title to prevent conflicts
     component: RecipeCard,
 } as Meta;
 
