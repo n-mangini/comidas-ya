@@ -3,6 +3,7 @@ import {Icon} from "../Icon/Icon";
 import {ReactComponent as HomeIcon} from "../../../assets/icons/home.svg";
 import {ReactComponent as DiscountIcon} from "../../../assets/icons/discounts.svg";
 import {ReactComponent as OrdersIcon} from "../../../assets/icons/orders.svg";
+import '../../../styles/fonts.css';
 
 export interface BottomNavigationBarProps {
     defaultSelected?: "inicio" | "promociones" | "pedidos";
@@ -17,7 +18,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({defaultSelecte
             : "text-gray-500";
 
     return (
-        <div className="flex justify-around bg-white px-6 py-2 rounded-t-md space-x-12 "
+        <div className="flex justify-around bg-white px-12 py-4 rounded-t-md space-x-12 "
              style={{
                  boxShadow: '0 -2px 6px rgba(0, 0, 0, 0.1)', // Custom top-only shadow
              }}
@@ -27,7 +28,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({defaultSelecte
                 className={`flex flex-col items-center ${getButtonStyle("inicio")}`}
                 onClick={() => setSelected("inicio")}
             >
-                <Icon icon={HomeIcon}/>
+                <Icon icon={HomeIcon} color={"text-white"}/>
                 <span className="text-sm">Inicio</span>
             </button>
 

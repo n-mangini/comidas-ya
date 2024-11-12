@@ -1,7 +1,8 @@
 import React from "react";
 import {cva, VariantProps} from "class-variance-authority";
 import {Icon, IconProps} from "../Icon/Icon";
-
+import '../../../styles/fonts.css';
+import './stylesButton.css'
 const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-center", {
     variants: {
         variant: {
@@ -111,7 +112,7 @@ export default function Button({
                                }: ButtonProps) {
     return (
         <button
-            className={buttonVariant({
+            className={"bodyMediumB1 px-3 py-3 border-radius " + buttonVariant({
                 variant,
                 variantType,
             })}
