@@ -1,0 +1,11 @@
+.time-title {
+    display: flex;
+    width: 377px;
+    margin: 31px 0px 19px 0px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 6px;
+    flex-shrink: 0;
+    border-bottom: 2px solid var(--negative-700);
+
+}
