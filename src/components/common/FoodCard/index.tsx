@@ -1,6 +1,5 @@
 import React from 'react';
 import Label from "../Label";
-import img from "../../../assets/food/blank.svg"
 
 export interface FoodCardProps {
     title: string;
@@ -11,11 +10,11 @@ export interface FoodCardProps {
     labels: string[];
 }
 
-const FoodCard: React.FC<FoodCardProps> = ({ title, description, price, discount, labels }) => {
+const FoodCard: React.FC<FoodCardProps> = ({ title, description, price, imageUrl, discount, labels }) => {
     return (
         <div className="rounded-lg shadow-lg max-w-xs overflow-hidden">
             <div className="relative">
-                <img src={img} alt="Food" className="w-full h-36 object-cover"/>
+                <img src={imageUrl} alt="Food" className="w-full h-36 object-cover"/>
                 {discount && (
                     <Label text={discount} variant="fulfilled" variantType="secondary" size="medium"
                            className="absolute bottom-2 right-2"/>

@@ -6,6 +6,7 @@ import FoodCarousel from "../../components/common/FoodCarousel";
 import BottomNavigationBar from "../../components/common/BottomNavigationBar";
 import {Icon} from "../../components/common/Icon";
 import { ReactComponent as RightArrowIcon } from "../../assets/icons/right_arrow.svg";
+import {popularFoodItems, recommendedFoodItems} from "./recommendedFoodItems";
 
 const Home: React.FC = () => {
     return (
@@ -21,14 +22,14 @@ const Home: React.FC = () => {
                     <Icon icon={RightArrowIcon}/>
                 </div>
 
-                <FoodCarousel/>
+                <FoodCarousel foodItems={recommendedFoodItems}/>
 
                 <div className="flex items-center">
                     <p className="text-black">Recomendado</p>
                     <Icon icon={RightArrowIcon}/>
                 </div>
 
-                <FoodCarousel/>
+                <FoodCarousel foodItems={popularFoodItems}/>
             </div>
             <BottomNavigationBar/>
         </div>
