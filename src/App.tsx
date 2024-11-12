@@ -10,8 +10,8 @@ import RecipePage from "./pages/RecipePage/RecipePage";
 
 function App() {
     return (
-        /* <FoodHome/>*/
-        <RecipePage/>
+        <FoodHome/>
+        /*<RecipePage/>*/
     );
 }
 

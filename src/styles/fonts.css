@@ -27,6 +27,14 @@
     letter-spacing: -0.24px;
 }
 
+.headerMediumH1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* SemiBold */
+    font-size: 32px; /* Matches Figma's font size */
+    line-height: 1.6; /* 160% line height, relative to font size */
+    letter-spacing: -0.01em; /* -1% letter spacing */
+}
+
 .headerMediumH3 {
     font-family: Roboto;
     font-size: 28px;
@@ -43,6 +51,14 @@
     font-weight: 500;
     line-height: 160%;
     letter-spacing: -0.28px;
+}
+
+.headerMediumH6 {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27.5px; /* 125% of font size */
+    letter-spacing: -0.01em; /* -1% letter spacing */
 }
 
 .BodyBoldB1 {
@@ -118,4 +134,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 160%; /* 25.6px */
+}
+
+.semibold-s1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* SemiBold */
+    font-size: 20px;
+    line-height: 25px; /* 125% of font size */
+    letter-spacing: -0.01em; /* -1% letter spacing */
 }

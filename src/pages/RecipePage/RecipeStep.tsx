@@ -3,6 +3,7 @@ import Button from '../../components/common/Button/Button';
 import Dot from "../../components/common/Dot/Dot";
 import {Icon} from "../../components/common/Icon/Icon";
 import {ReactComponent as LeftArrow} from "../../assets/icons/left_arrow.svg"
+import '../../styles/fonts.css'
 
 export interface RecipeStepProps {
     title: string;
@@ -41,8 +42,8 @@ const RecipeStep: React.FC<RecipeStepProps> = ({
 
 
                     <div>
-                        <h1 className="text-xl font-bold text-center w-full">{title}</h1>
-                        <p className="text-gray-500 text-center">chef: {chefName}</p>
+                        <div className="headerMediumH1 text-center w-full">{title}</div>
+                        <div className="headerMediumH6 text-gray-500 text-center">chef: {chefName}</div>
                     </div>
                 </div>
 
@@ -58,9 +59,9 @@ const RecipeStep: React.FC<RecipeStepProps> = ({
 
                 {/* Step Title, Subtitle, and Description */}
                 <div className="text-center">
-                    <h2 className="text-lg font-bold">Paso {currentStep + 1}</h2>
-                    <h3 className="text-base font-semibold text-black">{stepTitle}</h3>
-                    <p className="text-black">{stepDescription}</p>
+                    <div className="headerMediumH1">Paso {currentStep + 1}</div>
+                    <div className="semibold-s1">{stepTitle}</div>
+                    <div className="bodyRegularB1">{stepDescription}</div>
                 </div>
 
             </div>
