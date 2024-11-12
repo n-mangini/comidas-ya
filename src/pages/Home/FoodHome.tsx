@@ -7,6 +7,7 @@ import BottomNavigationBar from "../../components/common/BottomNavigationBar";
 import {Icon} from "../../components/common/Icon";
 import { ReactComponent as RightArrowIcon } from "../../assets/icons/right_arrow.svg";
 import {popularFoodItems, recommendedFoodItems} from "./recommendedFoodItems";
+import FoodCategoryFilter from "../../components/FoodCategoryFilter/FoodCategoryFilter";
 
 const Home: React.FC = () => {
     return (
@@ -21,6 +22,8 @@ const Home: React.FC = () => {
                     <p className="text-black">Categorias</p>
                     <Icon icon={RightArrowIcon}/>
                 </div>
+
+                <FoodCategoryFilter/>
 
                 <FoodCarousel foodItems={recommendedFoodItems}/>
 
