@@ -28,41 +28,45 @@ const RecipeStep: React.FC<RecipeStepProps> = ({
                                                    onNext
                                                }) => {
     return (
-        <div className="flex flex-col items-center space-y-[14px]">
+        <div className="h-screen flex flex-col">
+            {/* Scrollable Content */}
+            <div className="flex-grow overflow-y-auto flex flex-col items-center space-y-[18px] px-4 py-4">
 
-            {/* Header with Back Button and Title */}
-            <div className="relative w-full flex items-center">
-                <div className="absolute left-0">
-                    <Icon icon={LeftArrow}/>
+                {/* Header with Back Button and Title */}
+                <div className="relative w-full flex items-center justify-center mb-2">
+                    {currentStep > 0 && (
+                        <div className="absolute left-0">
+                            <Icon icon={LeftArrow}/>
+                        </div>
+                    )}
+
+                    <div>
+                        <h1 className="text-xl font-bold text-center w-full">{title}</h1>
+                        <p className="text-gray-500 text-center">chef: {chefName}</p>
+                    </div>
                 </div>
-                <h1 className="text-xl font-bold text-center w-full">{title}</h1>
+
+                {/* Image Section */}
+                <img src={imageUrl} alt={title} className="w-[363px] h-[220px] object-cover"/>
+
+                {/* Step Indicator Dots */}
+                <div className="flex justify-center space-x-1">
+                    {Array.from({length: totalSteps}).map((_, index) => (
+                        <Dot key={index} checked={index === currentStep} disabled={false}/>
+                    ))}
+                </div>
+
+                {/* Step Title, Subtitle, and Description */}
+                <div className="text-center">
+                    <h2 className="text-lg font-bold">Paso {currentStep + 1}</h2>
+                    <h3 className="text-base font-semibold text-black">{stepTitle}</h3>
+                    <p className="text-black">{stepDescription}</p>
+                </div>
+
             </div>
-            <p className="text-gray-500 text-center">chef: {chefName}</p>
 
-            {/* Image Section */}
-            <img src={imageUrl} alt={title} className="w-[363px] h-[220px] object-cover"/>
-
-            {/* Step Indicator Dots */}
-            <div className="flex">
-                {Array.from({length: totalSteps}).map((_, index) => (
-                    <Dot
-                        key={index}
-                        checked={index === currentStep}
-                        disabled={false}
-                    />
-                ))}
-            </div>
-
-            {/* Step Title and Subtitle */}
-            <h2 className="text-lg font-bold">Paso {currentStep + 1}</h2>
-            <h3 className="text-base font-semibold text-black">{stepTitle}</h3>
-
-            {/* Step Description */}
-            <p className="text-center text-black">{stepDescription}</p>
-
-            {/* Step Button */}
-            {/* Step Button Container - Stays at the Bottom */}
-            <div className="flex gap-3 mt-auto">
+            {/* Fixed Button Container */}
+            <div className="flex justify-center gap-3 py-4 bg-white shadow-md">
                 {currentStep > 0 && (
                     <Button onClick={onBack} variant="fulfilled" variantType="primary">
                         Paso Anterior
