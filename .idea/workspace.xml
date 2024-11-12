@@ -1,39 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="db847e5f-7fba-48cc-ba5f-9a0a4dd70d1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/BottomNavigationBar/BottomBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BottomNavigationBar/BottomBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button/Button.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button/Button.tsx" afterDir="false" />
+=======
+    <list default="true" id="dae1d6b8-b4f8-43fb-9009-8a095c1f1fff" name="Changes" comment="add story for main pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodCarousel/FoodCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodCarousel/FoodCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodCategoryFilter/FoodCategoryIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SwitchBar/SwitchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SwitchBar/SwitchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/TopBar/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/TopBar/TopBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts.css" afterDir="false" />
+>>>>>>> 5b694676beeb796662ea4a76e3ee4d7f6baa2543
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;carBoggio&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:n-mangini/comidas-ya.git&quot;,
-    &quot;accountId&quot;: &quot;79957a2b-f275-40bb-8d46-ba95f7d0a3be&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2oRrTut6cbxAVF7eLRVI0nvUBYo" />
+  <component name="ProjectId" id="2nAsC5IPJ2mT9nwPe2OXChRv4wl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,41 +52,49 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Carla/proyects/comidas-ya&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/n-mangini/projects/universidad/diseno-de-interaccion/comidas-ya/src/pages/RecipeStep/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Carla\\proyects\\comidas-ya\\node_modules\\typescript\\lib&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/n-mangini/projects/universidad/diseno-de-interaccion/comidas-ya/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Carla\proyects\comidas-ya\src\components\common" />
+      <recent name="$PROJECT_DIR$/src/pages/RecipeStep/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/foodCarousel" />
+      <recent name="$PROJECT_DIR$/src/assets/food/popular" />
+      <recent name="$PROJECT_DIR$/src/assets/food/recomendado" />
+      <recent name="$PROJECT_DIR$/src/assets/food" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Carla\proyects\comidas-ya\src\styles" />
-      <recent name="C:\Users\Carla\proyects\comidas-ya\src" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/FoodCarousel" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db847e5f-7fba-48cc-ba5f-9a0a4dd70d1a" name="Changes" comment="" />
-      <created>1730843240951</created>
+      <changelist id="dae1d6b8-b4f8-43fb-9009-8a095c1f1fff" name="Changes" comment="" />
+      <created>1728427083399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1730843240951</updated>
       <workItem from="1730843243392" duration="1604000" />
       <workItem from="1730852272605" duration="2290000" />
@@ -89,21 +107,317 @@
       <workItem from="1731357445929" duration="19414000" />
       <workItem from="1731386177901" duration="11000" />
       <workItem from="1731424416405" duration="4398000" />
+=======
+      <updated>1728427083399</updated>
+      <workItem from="1728427084579" duration="2245000" />
+      <workItem from="1729023279655" duration="9457000" />
+      <workItem from="1729531265483" duration="130000" />
+      <workItem from="1729531649487" duration="4040000" />
+      <workItem from="1729545125639" duration="4714000" />
+      <workItem from="1729618057471" duration="2949000" />
+      <workItem from="1729622775053" duration="12986000" />
+      <workItem from="1730225980332" duration="17406000" />
+      <workItem from="1730819103177" duration="5896000" />
+      <workItem from="1730848951818" duration="4212000" />
+      <workItem from="1730922297038" duration="326000" />
+      <workItem from="1731115295440" duration="10024000" />
+      <workItem from="1731379268520" duration="2900000" />
+      <workItem from="1731382420318" duration="39029000" />
+>>>>>>> 5b694676beeb796662ea4a76e3ee4d7f6baa2543
     </task>
+    <task id="LOCAL-00001" summary="clase 8 de octubre">
+      <option name="closed" value="true" />
+      <created>1729029753956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729029753956</updated>
+    </task>
+    <task id="LOCAL-00002" summary="clase 8 de octubre">
+      <option name="closed" value="true" />
+      <created>1729029855016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729029855016</updated>
+    </task>
+    <task id="LOCAL-00003" summary="clase 15 de octubre">
+      <option name="closed" value="true" />
+      <created>1729539521202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729539521202</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add buttons storybook">
+      <option name="closed" value="true" />
+      <created>1729639445548</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729639445548</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove unnecessary button variants">
+      <option name="closed" value="true" />
+      <created>1729639869314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729639869314</updated>
+    </task>
+    <task id="LOCAL-00006" summary="remove unnecessary button variant state">
+      <option name="closed" value="true" />
+      <created>1729639978833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729639978833</updated>
+    </task>
+    <task id="LOCAL-00007" summary="temporary remove colours">
+      <option name="closed" value="true" />
+      <created>1730228307274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730228307274</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add switchbar">
+      <option name="closed" value="true" />
+      <created>1730238365410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730238365410</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add bottom and top bar, use react buttons">
+      <option name="closed" value="true" />
+      <created>1730243350784</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730243350784</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: refactor">
+      <option name="closed" value="true" />
+      <created>1730244386665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730244386665</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: Button colours variant">
+      <option name="closed" value="true" />
+      <created>1730248714879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730248714879</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: Button">
+      <option name="closed" value="true" />
+      <created>1730821967640</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730821967640</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add label">
+      <option name="closed" value="true" />
+      <created>1730850262292</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730850262292</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix storybook">
+      <option name="closed" value="true" />
+      <created>1730851695225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730851695225</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: FoodCard">
+      <option name="closed" value="true" />
+      <created>1731125166306</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731125166306</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: RecipeCard">
+      <option name="closed" value="true" />
+      <created>1731184422702</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731184422702</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add icons">
+      <option name="closed" value="true" />
+      <created>1731381409566</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381409566</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add possibility to change color">
+      <option name="closed" value="true" />
+      <created>1731386146141</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731386146141</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add icon color">
+      <option name="closed" value="true" />
+      <created>1731416753329</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731416753329</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: add icon color">
+      <option name="closed" value="true" />
+      <created>1731417415998</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731417415998</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix: add icon color">
+      <option name="closed" value="true" />
+      <created>1731419348160</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731419348160</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix: HistoryCard">
+      <option name="closed" value="true" />
+      <created>1731419862764</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731419862764</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix: remove react icons">
+      <option name="closed" value="true" />
+      <created>1731421124060</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731421124060</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: FoodHome screen">
+      <option name="closed" value="true" />
+      <created>1731426416348</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731426416348</updated>
+    </task>
+    <task id="LOCAL-00025" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1731427645334</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731427645334</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: add images in food card component">
+      <option name="closed" value="true" />
+      <created>1731429879494</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731429879494</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: FoodCategoryFilter component">
+      <option name="closed" value="true" />
+      <created>1731433793243</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731433793243</updated>
+    </task>
+    <task id="LOCAL-00028" summary="home food">
+      <option name="closed" value="true" />
+      <created>1731434356473</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731434356474</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: add Recipe step screen">
+      <option name="closed" value="true" />
+      <created>1731439462933</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731439462934</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: fixed buttons in recipe steps with scrollable content">
+      <option name="closed" value="true" />
+      <created>1731442432927</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731442432927</updated>
+    </task>
+    <task id="LOCAL-00031" summary="general reformat">
+      <option name="closed" value="true" />
+      <created>1731444527414</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731444527414</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add story for main pages">
+      <option name="closed" value="true" />
+      <created>1731451960892</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731451960892</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.d.ts" />
+      </list>
+    </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/common/FAQ/FAQ.tsx</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="temporary remove colours" />
+    <MESSAGE value="feat: add switchbar" />
+    <MESSAGE value="feat: add bottom and top bar, use react buttons" />
+    <MESSAGE value="feat: refactor" />
+    <MESSAGE value="fix: Button colours variant" />
+    <MESSAGE value="fix: Button" />
+    <MESSAGE value="feat: add label" />
+    <MESSAGE value="fix storybook" />
+    <MESSAGE value="feat: FoodCard" />
+    <MESSAGE value="feat: RecipeCard" />
+    <MESSAGE value="feat: add icons" />
+    <MESSAGE value="feat: add possibility to change color" />
+    <MESSAGE value="feat: add icon color" />
+    <MESSAGE value="fix: add icon color" />
+    <MESSAGE value="fix: HistoryCard" />
+    <MESSAGE value="fix: remove react icons" />
+    <MESSAGE value="feat: FoodHome screen" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="feat: add images in food card component" />
+    <MESSAGE value="feat: FoodCategoryFilter component" />
+    <MESSAGE value="home food" />
+    <MESSAGE value="feat: add Recipe step screen" />
+    <MESSAGE value="feat: fixed buttons in recipe steps with scrollable content" />
+    <MESSAGE value="general reformat" />
+    <MESSAGE value="add story for main pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add story for main pages" />
   </component>
 </project>

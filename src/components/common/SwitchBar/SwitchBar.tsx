@@ -20,7 +20,7 @@ export interface SwitchButtonProps extends VariantProps<typeof switchVariant> {
 
 // The comidas or recetas button
 const SwitchButton: React.FC<SwitchButtonProps> = ({onClick, label, selected}) => (
-    <button className={`${switchVariant({selected})} flex-grow`} onClick={onClick}>
+    <button className={`${switchVariant({selected})} flex-grow bodyMediumB1`} onClick={onClick}>
         {label}
     </button>
 );

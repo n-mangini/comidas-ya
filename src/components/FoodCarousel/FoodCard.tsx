@@ -28,10 +28,10 @@ const FoodCard: React.FC<FoodCardProps> = ({title, description, price, imageUrl,
                     {/* Title and Description */}
                     <div className="flex flex-col w-4/5">
                         <h3 className="text-lg font-semibold break-words">{title}</h3>
-                        <p className="text-gray-600 text-sm break-words">{description}</p>
+                        <div className="light-c2 break-words">{description}</div>
                     </div>
                     {/* Price */}
-                    <div className="text-lg font-bold text-gray-900">${price.toFixed(2)}</div>
+                    <div className="semibold-s2">${price.toFixed(2)}</div>
                 </div>
 
                 {/* Labels */}
