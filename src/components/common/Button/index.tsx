@@ -1,5 +1,6 @@
 import React from "react";
 import {cva, VariantProps} from "class-variance-authority";
+import {Icon, IconProps} from "../Icon";
 
 const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-center", {
     variants: {
@@ -88,9 +89,10 @@ const buttonVariant = cva("rounded-md px-1.5 py-1.5 flex items-center justify-ce
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariant> {
     variant: 'fulfilled' | 'outlined' | 'ghost';
     variantType: 'primary' | 'secondary';
-    icon?: string;
+    icon?: IconProps['icon'];
     show_icon?: boolean;
     show_text?: boolean;
+    icon_color?: string;
 }
 
 export default function Button({
@@ -103,6 +105,7 @@ export default function Button({
                                    icon,
                                    show_icon = true,
                                    show_text = true,
+                                   icon_color = "black",
 
                                    ...props
                                }: ButtonProps) {
@@ -114,8 +117,7 @@ export default function Button({
             })}
             {...props}
         >
-
-            {show_icon && icon && <img src={icon} alt="icon"/>}
+            {show_icon && icon && <Icon icon={icon} color={icon_color}/>}
             {show_text && children}
 
         </button>

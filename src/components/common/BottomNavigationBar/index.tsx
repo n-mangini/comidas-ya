@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import { FaHome, FaTags, FaClipboardList } from "react-icons/fa";
+import {Icon} from "../Icon";
+import { ReactComponent as HomeIcon } from "../../../assets/icons/home.svg";
+import { ReactComponent as DiscountIcon} from "../../../assets/icons/discounts.svg";
+import { ReactComponent as OrdersIcon } from "../../../assets/icons/orders.svg";
 
 export interface BottomNavigationBarProps {
     defaultSelected?: "inicio" | "promociones" | "pedidos";
@@ -20,7 +23,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({ defaultSelect
                 className={`flex flex-col items-center ${getButtonStyle("inicio")} mx-6`}
                 onClick={() => setSelected("inicio")}
             >
-                <FaHome className="text-2xl" />
+                <Icon icon={HomeIcon} />
                 <span className="text-sm">Inicio</span>
             </button>
 
@@ -29,7 +32,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({ defaultSelect
                 className={`flex flex-col items-center ${getButtonStyle("promociones")} mx-6`}
                 onClick={() => setSelected("promociones")}
             >
-                <FaTags className="text-2xl" />
+                <Icon icon={DiscountIcon} />
                 <span className="text-sm">Promociones</span>
             </button>
 
@@ -38,7 +41,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({ defaultSelect
                 className={`flex flex-col items-center ${getButtonStyle("pedidos")} mx-6`}
                 onClick={() => setSelected("pedidos")}
             >
-                <FaClipboardList className="text-2xl" />
+                <Icon icon={OrdersIcon} />
                 <span className="text-sm">Pedidos</span>
             </button>
         </div>
