@@ -1,13 +1,13 @@
 import React from 'react';
 import CheckBox, {CheckBoxProps} from "./Checkbox";
-import {StoryFn } from '@storybook/react';
+import {StoryFn} from '@storybook/react';
 
 export default {
-    title: 'Components/CheckBox',
+    title: 'Components/Common/CheckBox',
     component: CheckBox,
     argTypes: {
-        checked: { control: 'boolean' },
-        disabled: { control: { type: 'boolean', disable: true } },
+        checked: {control: 'boolean'},
+        disabled: {control: {type: 'boolean', disable: true}},
     },
 };
 

@@ -10,7 +10,7 @@ const stylesForContainer = {
     display: "flex"
 };
 
-export const Filter: React.FC<FilterProps> = ({ text }) => {
+export const Filter: React.FC<FilterProps> = ({text}) => {
     return (
         <div style={stylesForContainer}>
             <div className={"filter"}>

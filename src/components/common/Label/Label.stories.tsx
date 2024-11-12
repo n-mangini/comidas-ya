@@ -1,9 +1,9 @@
 import React from 'react';
-import { StoryFn, Meta } from '@storybook/react';
-import Label, { LabelProps } from './index';
+import {StoryFn, Meta} from '@storybook/react';
+import Label, {LabelProps} from './Label';
 
 export default {
-    title: 'Components/Label',
+    title: 'Components/Common/Label',
     component: Label,
     parameters: {
         layout: 'centered',

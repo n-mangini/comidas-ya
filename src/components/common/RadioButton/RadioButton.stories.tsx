@@ -1,13 +1,13 @@
 import React from 'react';
 import RadioButton, {RadioButtonProps} from "./RadioButton";
-import {StoryFn } from '@storybook/react';
+import {StoryFn} from '@storybook/react';
 
 export default {
-    title: 'Components/RadioButton',
+    title: 'Components/Common/RadioButton',
     component: RadioButton,
     argTypes: {
-        checked: { control: 'boolean' },
-        disabled: { control: { type: 'boolean', disable: true } },
+        checked: {control: 'boolean'},
+        disabled: {control: {type: 'boolean', disable: true}},
     },
 };
 
