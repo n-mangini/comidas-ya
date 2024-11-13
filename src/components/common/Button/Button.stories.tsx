@@ -22,7 +22,7 @@ export default {
                 options: ['primary', 'secondary'],
             },
         },
-        disabled: {control: 'boolean'},
+        icon: { control: {disable: true} },
         show_icon: {control: 'boolean'},
         show_text: {control: 'boolean'},
 

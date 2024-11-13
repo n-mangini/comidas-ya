@@ -2,7 +2,6 @@ import React from 'react';
 import {Meta, StoryFn} from '@storybook/react';
 import RecipePage from './RecipePage';
 import '../../styles/index.css';
-import Home from "../FoodHome/FoodHome"; // Ensure global styles are included
 
 export default {
     title: 'Pages/RecipePage',

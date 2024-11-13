@@ -1,5 +1,3 @@
-// src/components/RecipePage/RecipePage.stories.tsx
-
 import React from 'react';
 import {StoryFn, Meta} from '@storybook/react';
 import RecipeStep, {RecipeStepProps} from './RecipeStep';
