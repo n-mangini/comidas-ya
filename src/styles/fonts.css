@@ -159,3 +159,10 @@
     line-height: 160%; /* 160% of 18px is 28.8px */
     letter-spacing: 0; /* 0% */
 }
+
+.semibold-c1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* SemiBold */
+    font-size: 14px;
+    line-height: 22.4px; /* 160% */
+}
