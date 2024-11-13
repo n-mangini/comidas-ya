@@ -28,8 +28,8 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({defaultSelecte
                 className={`flex flex-col items-center ${getButtonStyle("inicio")}`}
                 onClick={() => setSelected("inicio")}
             >
-                <Icon icon={HomeIcon} color={"text-white"}/>
-                <span className="text-sm">Inicio</span>
+                <Icon icon={HomeIcon}/>
+                <span className="semibold-c1">Inicio</span>
             </button>
 
             {/* Promociones */}
@@ -38,7 +38,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({defaultSelecte
                 onClick={() => setSelected("promociones")}
             >
                 <Icon icon={DiscountIcon}/>
-                <span className="text-sm">Promociones</span>
+                <span className="semibold-c1">Promociones</span>
             </button>
 
             {/* Pedidos */}
@@ -47,7 +47,7 @@ const BottomNavigationBar: React.FC<BottomNavigationBarProps> = ({defaultSelecte
                 onClick={() => setSelected("pedidos")}
             >
                 <Icon icon={OrdersIcon}/>
-                <span className="text-sm">Pedidos</span>
+                <span className="semibold-c1">Pedidos</span>
             </button>
         </div>
     );
