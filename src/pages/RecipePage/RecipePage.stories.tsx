@@ -1,17 +1,21 @@
 import React from 'react';
 import {Meta, StoryFn} from '@storybook/react';
 import RecipePage from './RecipePage';
-import '../../styles/index.css'; // Ensure global styles are included
+import '../../styles/index.css';
+import Home from "../FoodHome/FoodHome"; // Ensure global styles are included
 
 export default {
     title: 'Pages/RecipePage',
     component: RecipePage,
     parameters: {
-        layout: 'fullscreen',
+        layout: 'centered',
     },
 } as Meta<typeof RecipePage>;
 
-const Template: StoryFn = () => <RecipePage/>;
-
+const Template: StoryFn = () => (
+    <div style={{width: '430px', height: '932px', border: '1px solid #ddd', overflow: 'hidden'}}>
+        <RecipePage/>
+    </div>
+);
 export const Default = Template.bind({});
 Default.args = {};
