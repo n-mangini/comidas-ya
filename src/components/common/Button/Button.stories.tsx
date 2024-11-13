@@ -57,7 +57,7 @@ OutlinedPrimary.args = {
     show_icon: true,
     show_text: true,
     icon: shopping_cart,
-    icon_color: 'text-white',
+    icon_color: 'text-primary-500',
 };
 
 export const GhostPrimary = Template.bind({});
@@ -68,7 +68,7 @@ GhostPrimary.args = {
     show_icon: true,
     show_text: true,
     icon: shopping_cart,
-    icon_color: 'text-white',
+    icon_color: 'text-primary-500',
 };
 
 export const FulfilledSecondary = Template.bind({});
@@ -90,7 +90,7 @@ OutlinedSecondary.args = {
     show_icon: true,
     show_text: true,
     icon: shopping_cart,
-    icon_color: 'text-white',
+    icon_color: 'text-secondary-500',
 };
 
 export const GhostSecondary = Template.bind({});
@@ -101,5 +101,5 @@ GhostSecondary.args = {
     show_icon: true,
     show_text: true,
     icon: shopping_cart,
-    icon_color: 'text-white',
+    icon_color: 'text-secondary-500',
 };
