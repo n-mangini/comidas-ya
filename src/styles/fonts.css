@@ -125,6 +125,15 @@
     font-weight: 300;
     line-height: 160%; /* 25.6px */
 }
+.captionSemiBoldC1 {
+
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
 
 .bodyMediumB1 {
     text-align: right;

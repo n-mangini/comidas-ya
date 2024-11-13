@@ -6,6 +6,10 @@ export interface RecipeCardProps {
     title: string;
     labels: string[];
 }
+const styles = {
+    textAlign: 'start',
+}
+
 
 const RecipeCard: React.FC<RecipeCardProps> = ({title, labels}) => {
     return (
@@ -17,7 +21,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({title, labels}) => {
                 {/* Full-width Gradient Background for Text */}
                 <div
                     className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-[rgba(0,0,0,0.4)] to-transparent p-3">
-                    <p className="text-white text-lg font-medium break-words">{title}</p>
+                    <p className="text-white bodyMediumB1" style={styles}>{title}</p>
                 </div>
 
             </div>

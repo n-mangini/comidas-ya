@@ -4,7 +4,7 @@ import {ReactComponent as HomeIcon} from "../../../assets/icons/home.svg";
 import {ReactComponent as DiscountIcon} from "../../../assets/icons/discounts.svg";
 import {ReactComponent as OrdersIcon} from "../../../assets/icons/orders.svg";
 import '../../../styles/fonts.css';
-
+import '../../../styles/global.css';
 export interface BottomNavigationBarProps {
     defaultSelected?: "inicio" | "promociones" | "pedidos";
 }
